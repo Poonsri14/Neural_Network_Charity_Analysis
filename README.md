@@ -11,25 +11,25 @@ To use machine learning and neural networks with the features in the provided da
 ### Data Preprocessing
 
 What variable(s) are considered the target(s) for your model?
-
+successful
 
 What variable(s) are considered to be the features for your model?
-
+everything, but successful
 
 What variable(s) are neither targets nor features, and should be removed from the input data?
-
+EIN and Name
 
 ### Compiling, Training, and Evaluating the Model
 
 
 How many neurons, layers, and activation functions did you select for your neural network model, and why?
-
+2 layers 1=80, 2=30 
 
 Were you able to achieve the target model performance?
-
+ accuracy: 0.7245
 
 What steps did you take to try and increase model performance?
-
+accuracy: 0.7886 
 
 ## Summary: 
 
