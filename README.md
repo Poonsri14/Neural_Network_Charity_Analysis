@@ -11,27 +11,31 @@ To use machine learning and neural networks with the features in the provided da
 ### Data Preprocessing
 
 What variable(s) are considered the target(s) for your model?
-successful
+    
+    IS_SUCCESSFUL is considered the target for this model
 
 What variable(s) are considered to be the features for your model?
-everything, but successful
+    
+    Everything are considered to be the features, except IS_SUCCESSFUL.
 
 What variable(s) are neither targets nor features, and should be removed from the input data?
-EIN and Name
+    
+    EIN and NAME
 
 ### Compiling, Training, and Evaluating the Model
 
 
 How many neurons, layers, and activation functions did you select for your neural network model, and why?
-2 layers 1=80, 2=30 
+    There are two layers; the first layer;hidden_nodes_layer1 = 80, the second layerhidden_nodes_layer2 = 30 with relu for activation funtions.
 
 Were you able to achieve the target model performance?
- accuracy: 0.7245
+    The accuracy for this model is 72.45%.
 
 What steps did you take to try and increase model performance?
-accuracy: 0.7886 
+   Additional the third layer;hidden_nodes_layer3 = 10. Use Sigmoid  activation funtions for the second and third layers. The model accuracy is increasing to 78.86%.
+
 
 ## Summary: 
-
+There are 
 Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and explain your recommendation.
 
