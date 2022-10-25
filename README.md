@@ -26,7 +26,7 @@ What variable(s) are neither targets nor features, and should be removed from th
 
 
 How many neurons, layers, and activation functions did you select for your neural network model, and why?
-    There are two layers; the first layer;hidden_nodes_layer1 = 80, the second layerhidden_nodes_layer2 = 30 with relu for activation funtions.
+    There are two layers; the first layer;hidden_nodes_layer1 = 80, the second layerhidden_nodes_layer2 = 30 with relu for activation functions.
 
 Were you able to achieve the target model performance?
     The accuracy for this model is 72.45%.
@@ -36,6 +36,6 @@ What steps did you take to try and increase model performance?
 
 
 ## Summary: 
-There are 
-Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and explain your recommendation.
+
+The latest test that has additional third layer and is changed the activation function to Sigmoid is 78.86% accuracy for model performance which is efficiency to perform and solve this classification problem. No additional test needed.
 
